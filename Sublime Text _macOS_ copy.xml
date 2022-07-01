@@ -2,6 +2,7 @@
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Documentation.ViewExternal" />
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
@@ -18,10 +19,14 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+  </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="ExternalJavaDoc" />
   <action id="FileMenu">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
@@ -48,6 +53,12 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
     <keyboard-shortcut first-keystroke="meta page_up" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta l" />
   </action>
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="alt g" />
