@@ -21,6 +21,14 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
@@ -57,6 +65,7 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
+  <action id="EditorToggleInsertState" />
   <action id="EditorToggleShowWhitespaces">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
@@ -77,6 +86,12 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta s" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift meta u" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
@@ -89,10 +104,17 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
     <keyboard-shortcut first-keystroke="meta page_down" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="f1" />
