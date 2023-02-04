@@ -8,15 +8,16 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ChangesView.ShelveSilently" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="shift alt f10" />
   </action>
-  <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift meta f4" />
-  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta f4" />
+  </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift meta f4" />
   </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -134,7 +135,7 @@
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta alt f" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Rerun" />
   <action id="RerunFailedTests">
@@ -164,6 +165,9 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="Vcs.Show.Log">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta l" />
   </action>
@@ -175,7 +179,7 @@
   </action>
   <action id="nl.deschepers.laraveltinker.action.RunConsoleAction">
     <keyboard-shortcut first-keystroke="shift f10" />
-    <keyboard-shortcut first-keystroke="shift right_parenthesis" />
+    <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
   <action id="osmedile.intellij.stringmanip.RepeatAction">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta comma" />
