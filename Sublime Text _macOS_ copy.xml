@@ -69,6 +69,9 @@
   <action id="EditorToggleShowWhitespaces">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
