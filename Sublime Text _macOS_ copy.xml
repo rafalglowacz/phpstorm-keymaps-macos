@@ -137,6 +137,9 @@
     <keyboard-shortcut first-keystroke="meta alt v" />
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="alt f6" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
