@@ -187,7 +187,7 @@
     <keyboard-shortcut first-keystroke="shift meta f10" />
   </action>
   <action id="Scratch.ShowFilesPopup">
-    <keyboard-shortcut first-keystroke="shift ctrl alt 6" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt 6" />
   </action>
   <action id="ScrollPane-unitScrollDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
