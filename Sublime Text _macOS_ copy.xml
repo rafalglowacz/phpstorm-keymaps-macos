@@ -61,6 +61,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorNextWordInDifferentHumpsMode">
@@ -146,7 +147,7 @@
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta f12" />
-    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt slash" />
