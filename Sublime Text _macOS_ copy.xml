@@ -29,9 +29,9 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
@@ -54,9 +54,11 @@
   </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -81,6 +83,10 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
+  </action>
+  <action id="EditorSelectLine" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="shift meta space" />
