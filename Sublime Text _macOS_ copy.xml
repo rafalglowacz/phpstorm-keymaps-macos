@@ -138,6 +138,9 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
