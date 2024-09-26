@@ -8,6 +8,10 @@
   <action id="ActivateBigDataToolWindowToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta b" />
   </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="ActivateStructureToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -40,6 +44,9 @@
     <keyboard-shortcut first-keystroke="shift meta divide" />
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
+  <action id="Console.Jdbc.ChooseDataSource">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
@@ -63,7 +70,6 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
-  <action id="EditorJoinLines" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorNextWordInDifferentHumpsMode">
@@ -153,10 +159,6 @@
   <action id="GotoPreviousBookmarkInEditor">
     <keyboard-shortcut first-keystroke="alt r" />
     <keyboard-shortcut first-keystroke="ctrl alt r" />
-  </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="shift meta f12" />
-    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt slash" />
