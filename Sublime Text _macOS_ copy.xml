@@ -70,6 +70,10 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorNextWordInDifferentHumpsMode">
@@ -93,6 +97,16 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
   </action>
   <action id="EditorSelectLine" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="shift space" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
+  <action id="EditorSwapSelectionBoundaries">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
@@ -102,6 +116,10 @@
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -160,6 +178,10 @@
   </action>
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="InsertInlineCompletionLineAction">
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="end" />
   </action>
   <action id="IntentionActionAsAction_com.jetbrains.php.lang.intentions.PhpReplaceQuotesIntention">
     <keyboard-shortcut first-keystroke="alt quote" />
@@ -234,6 +256,16 @@
   </action>
   <action id="ScrollPane-unitScrollUp">
     <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="meta f1" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="ShowHoverInfo">
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="alt f2" />
