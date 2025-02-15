@@ -1,4 +1,12 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="button4" />
@@ -10,12 +18,22 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="Console.SplitLine" />
+  <action id="Console.TableResult.Submit" />
+  <action id="Console.TableResult.Transpose">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="EditorChooseLookupItem">
-    <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift meta minus" />
@@ -26,6 +44,10 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorSwapSelectionBoundaries">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl meta left" />
@@ -45,6 +67,12 @@
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta v" />
+  </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt l" />
+  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
   </action>
@@ -53,23 +81,32 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ShowHoverInfo">
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="f13" />
+  </action>
+  <action id="ShowSearchHistory">
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="TextEditorWithPreview.Layout.PreviewOnly" />
+  <action id="UsageGrouping.FlattenModules" />
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="alt f3" />
     <keyboard-shortcut first-keystroke="alt f5" />
-    <keyboard-shortcut first-keystroke="shift alt period" />
+    <keyboard-shortcut first-keystroke="alt page_down" />
   </action>
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift alt f3" />
     <keyboard-shortcut first-keystroke="shift alt f5" />
-    <keyboard-shortcut first-keystroke="shift alt comma" />
+    <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
