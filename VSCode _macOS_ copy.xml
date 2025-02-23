@@ -53,10 +53,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="FileChooser.NewFile" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt minus" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
@@ -67,6 +71,11 @@
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="NewFile" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
