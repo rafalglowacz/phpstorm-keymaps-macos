@@ -62,6 +62,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
@@ -81,6 +84,7 @@
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
