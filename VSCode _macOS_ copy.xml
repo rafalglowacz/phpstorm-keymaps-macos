@@ -45,9 +45,14 @@
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
   </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorSplitLine" />
   <action id="EditorSwapSelectionBoundaries">
     <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl meta left" />
@@ -79,12 +84,22 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewFile" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
