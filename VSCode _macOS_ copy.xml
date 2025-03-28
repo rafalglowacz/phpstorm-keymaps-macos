@@ -51,6 +51,14 @@
   <action id="EditorSwapSelectionBoundaries">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta end" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta home" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
