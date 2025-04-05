@@ -81,6 +81,7 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="HideSideWindows" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
@@ -130,6 +131,9 @@
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="TextEditorWithPreview.Layout.PreviewOnly" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="UsageGrouping.FlattenModules" />
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="alt g" />
@@ -147,4 +151,5 @@
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
