@@ -45,8 +45,12 @@
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
   </action>
-  <action id="EditorScrollDown" />
-  <action id="EditorScrollUp" />
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorSwapSelectionBoundaries">
     <keyboard-shortcut first-keystroke="ctrl o" />
