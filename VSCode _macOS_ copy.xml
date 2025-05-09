@@ -26,6 +26,9 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="DSM.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -35,15 +38,20 @@
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
-  <action id="EditorDecreaseFontSize">
+  <action id="EditorDecreaseFontSize" />
+  <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift meta minus" />
   </action>
-  <action id="EditorIncreaseFontSize">
+  <action id="EditorIncreaseFontSize" />
+  <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorResetFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
   <action id="EditorScrollDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -143,6 +151,8 @@
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="TerminalDecreaseFontSize" />
+  <action id="TerminalIncreaseFontSize" />
   <action id="TextEditorWithPreview.Layout.PreviewOnly" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta b" />
