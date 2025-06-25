@@ -103,6 +103,12 @@
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="GotoNextBookmarkInEditor">
+    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+  </action>
+  <action id="GotoPreviousBookmarkInEditor">
+    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
+  </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
