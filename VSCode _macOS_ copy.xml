@@ -35,7 +35,9 @@
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="Console.SplitLine" />
-  <action id="Console.TableResult.Submit" />
+  <action id="Console.TableResult.Submit">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
@@ -50,6 +52,12 @@
   </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
   <action id="EditorDecreaseFontSize" />
   <action id="EditorDecreaseFontSizeGlobal">
@@ -104,10 +112,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="GotoNextBookmarkInEditor">
-    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
   <action id="GotoPreviousBookmarkInEditor">
-    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
+    <keyboard-shortcut first-keystroke="shift meta alt up" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="ctrl u" />
