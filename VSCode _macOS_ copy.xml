@@ -111,6 +111,18 @@
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
   <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
