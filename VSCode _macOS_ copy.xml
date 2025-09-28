@@ -81,6 +81,9 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="EditorSwapSelectionBoundaries">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
