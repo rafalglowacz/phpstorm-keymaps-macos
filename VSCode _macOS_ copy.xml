@@ -4,12 +4,11 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
-  <action id="AceAction">
-    <keyboard-shortcut first-keystroke="alt n" />
-  </action>
+  <action id="AceAction" />
   <action id="AceLineAction" />
-  <action id="AceTargetAction">
-    <keyboard-shortcut first-keystroke="shift meta alt n" />
+  <action id="AceTargetAction" />
+  <action id="AceWordAction">
+    <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="ActivateAIAssistantToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
