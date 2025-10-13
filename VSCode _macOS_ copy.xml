@@ -207,6 +207,7 @@
     <keyboard-shortcut first-keystroke="shift alt f5" />
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
+  <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
