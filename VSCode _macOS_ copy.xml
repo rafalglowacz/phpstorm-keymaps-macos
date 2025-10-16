@@ -10,8 +10,15 @@
   <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -91,10 +98,14 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl meta left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="FileChooser.GotoModule" />
   <action id="FileChooser.NewFile" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
@@ -108,16 +119,19 @@
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="GoToTab1">
-    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="meta 1" />
   </action>
   <action id="GoToTab2">
-    <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="GoToTab3">
-    <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="GoToTab4">
-    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift meta alt down" />
@@ -149,7 +163,6 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
-    <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
@@ -161,7 +174,6 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
-    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
