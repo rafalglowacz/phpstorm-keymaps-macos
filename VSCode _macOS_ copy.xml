@@ -181,6 +181,12 @@
   <action id="Scratch.ShowFilesPopup">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="ScrollPane-unitScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="ScrollPane-unitScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="meta f1" />
     <keyboard-shortcut first-keystroke="ctrl e" />
