@@ -171,6 +171,7 @@
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
+  <action id="Pause" />
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
@@ -178,6 +179,10 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl alt f5" />
