@@ -41,6 +41,9 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="CopyPathWithLineNumber">
+    <keyboard-shortcut first-keystroke="shift meta alt l" />
+  </action>
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
@@ -212,6 +215,7 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f13" />
   </action>
+  <action id="ShowReformatFileDialog" />
   <action id="ShowSearchHistory">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -238,6 +242,9 @@
     <keyboard-shortcut first-keystroke="shift alt f3" />
     <keyboard-shortcut first-keystroke="shift alt f5" />
     <keyboard-shortcut first-keystroke="alt page_up" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
