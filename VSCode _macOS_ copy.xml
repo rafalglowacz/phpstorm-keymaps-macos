@@ -31,6 +31,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="w" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="alt escape" />
