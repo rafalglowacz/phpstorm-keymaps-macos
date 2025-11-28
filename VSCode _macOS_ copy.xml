@@ -172,6 +172,9 @@
   <action id="GoToTab8">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
   <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
@@ -193,6 +196,9 @@
   </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -286,5 +292,21 @@
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
+  <action id="com.mnw.tabmover.actions.MoveFocusToNextWindow" />
+  <action id="com.mnw.tabmover.actions.MoveFocusToPreviousWindow" />
+  <action id="com.mnw.tabmover.actions.MovePinnedTabsToFirst" />
+  <action id="com.mnw.tabmover.actions.MoveTabDownAction">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="com.mnw.tabmover.actions.MoveTabToFirstAction" />
+  <action id="com.mnw.tabmover.actions.MoveTabToLastAction" />
+  <action id="com.mnw.tabmover.actions.MoveTabToNewWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabToNextWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabToPreviousWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabUpAction">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="com.mnw.tabmover.actions.ShowTabMoveActions" />
+  <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
