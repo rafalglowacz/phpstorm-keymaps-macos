@@ -97,6 +97,9 @@
   <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift meta minus" />
   </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+  </action>
   <action id="EditorIncreaseFontSize" />
   <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift meta equals" />
@@ -138,6 +141,9 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl meta left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
   </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.NewFile" />
