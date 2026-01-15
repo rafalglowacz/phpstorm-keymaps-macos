@@ -108,6 +108,10 @@
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
   </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift meta back_slash" />
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="EditorResetFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
@@ -203,6 +207,7 @@
   <action id="HideSideWindows" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="meta alt l" />
