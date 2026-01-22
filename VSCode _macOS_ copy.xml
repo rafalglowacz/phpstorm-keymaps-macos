@@ -31,6 +31,9 @@
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateNotificationsToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
@@ -42,8 +45,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
-  <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
+  <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="w" />
   </action>
   <action id="CodeCompletion">
@@ -138,6 +143,7 @@
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="u" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="alt w" />
@@ -207,7 +213,7 @@
   <action id="HideSideWindows" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
-    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="meta alt l" />
@@ -284,6 +290,10 @@
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="SplitVertically" />
+  <action id="TW.CloseOtherTabs">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
+  <action id="Terminal.ClearBuffer" />
   <action id="TerminalDecreaseFontSize" />
   <action id="TerminalIncreaseFontSize" />
   <action id="TextEditorWithPreview.Layout.PreviewOnly" />
