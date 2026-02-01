@@ -287,9 +287,11 @@
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="meta equals" />
+    <keyboard-shortcut first-keystroke="alt equals" />
   </action>
-  <action id="SplitVertically" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
   <action id="TW.CloseOtherTabs">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
