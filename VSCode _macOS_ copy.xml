@@ -83,6 +83,9 @@
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="EditBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -317,7 +320,7 @@
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="XDebugger.MuteBreakpoints">
-    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="shift meta f9" />
   </action>
   <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
